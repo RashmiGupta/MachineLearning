@@ -1,0 +1,71 @@
+.input-quest {
+    display: flex;
+    background-color: rgb(80, 25, 25);
+    padding: 20px;
+    align-items: center;
+}
+
+.btn {
+    cursor: hand;
+    border: 1px solid #CCEBAF;
+    width: 50px;
+    height: 30px;
+    background-color: transparent;
+    font-size: 1.25em;
+    color: #CCEBAF;
+    box-shadow: 0 6px 6px rgba(0 0 0 0.6);
+
+}
+
+.session-quest,
+.game-grid {
+    display: table;
+    margin-top: 10px;
+}
+
+.quest-parinam,
+.grid-row {
+    display: table-row;
+}
+
+.grid-cell {
+    display: table-column;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #CCEBAF;
+}
+
+.nine-steps {
+    background-color:  hsl(350, 36%, 46%);
+}
+
+.controls,
+.details {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.faal-description {
+    vertical-align: middle;
+    text-align: center;
+}
+
+div.unstyledTable {
+    border: 1px solid #000;
+    text-align: center;
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+.id-cell, .quest-cell, .parinam-cell {
+    display: table-cell;
+}
+
+.session-quest.unstyledTable .id-cell,
+.session-quest.unstyledTable .quest-cell,
+.session-quest.unstyledTable .parinam-cell {
+    border: 1px solid #c5fca2;
+    font-size: 12px;
+    color: #2d10ad;
+}
